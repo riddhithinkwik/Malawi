@@ -48,8 +48,10 @@ describe("GET /api/v1/admin/auth/me", () => {
   });
 
   it("should return 401 with code `UNAUTHORIZED` if Unauthorized to use this content ", async () => {
-    const { accessToken: accessTokenOrg, refreshToken: refreshTokenOrg } =
-      await login();
+    const {
+      useraccessToken: accessTokenOrg,
+      userRefreshToken: refreshTokenOrg,
+    } = await login();
     refreshToken = refreshTokenOrg;
     accessToken = "sqsq";
 
