@@ -1,6 +1,6 @@
 module.exports = {
-  EMAIL: "riddhi.p@thinkwik.com",
-  PASSWORD: "Tw@123456",
+  EMAIL: "qa@mei.org.mw",
+  PASSWORD: "12345678900",
   PHONECODE: "91",
   PHONENUMBER: "7048712507",
   FIRSTNAME: "RIDDHI",
