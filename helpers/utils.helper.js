@@ -65,13 +65,13 @@ async function login() {
     method: "post",
     url: `${process.env.BASE_PATH}/auth/login`,
     headers: {
-      "x-client-id": "E8kJGrinqwyRT2rg",
+      "x-client-id": "someid",
     },
     data: loginData,
   });
   //console.log(loginRes.data);
   return {
-    userAccessToken: loginRes.data.data.accessToken,
+    useraccessToken: loginRes.data.data.accessToken,
     userRefreshToken: loginRes.data.data.refreshToken,
     email: loginRes.data.data.user.email,
   };
