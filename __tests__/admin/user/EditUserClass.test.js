@@ -60,7 +60,7 @@ describe("PUT /api/v1/admin/user", () => {
     } = await login();
 
     userClass = "CRAFTSPERSON";
-    mentorId = "1dbpnd0mN5g22vEUq2KDt31I";
+    mentorId = "Fy5xbwag945O04sdRd4wWXTA";
     refreshToken = refreshTokenOrg;
     accessToken = accessTokenOrg;
     const response = await exec();
