@@ -76,7 +76,7 @@ describe("POST /api/v1/admin/adminUser", () => {
     expect(response.status).toBe("SUCCESS");
   });
 
-  it("should return 400 with code `EMAIL_ALREADY_EXISTS` if enteerd email address is already Exists ", async () => {
+  it("should return 400 with code `EMAIL_ALREADY_EXISTS` if entered email address is already Exists ", async () => {
     const {
       useraccessToken: accessTokenOrg,
       userRefreshToken: refreshTokenOrg,
